@@ -1,0 +1,1341 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+}
+
+
+.topbar {
+    display: flex;
+    padding: 4px;
+    justify-content: space-evenly;
+    height: 35px;
+    width: 100%;
+    background-color: #e1e1e4;
+}
+
+.header {
+    height: 90px;
+    width: 100%;
+    position: sticky;
+    z-index: 100;
+    top: 0px;
+    box-shadow: 0px 0px 10px 1px rgb(220, 219, 219);
+}
+
+
+.Navbar {
+    height: 90px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+   
+}
+
+.all_display-flex{
+    display: flex;
+}
+
+.section_1 {
+    width: 20%;
+}
+
+.section_1 img {
+    margin-left: 40px;
+    margin-top: 25px;
+}
+
+.section_2 {
+    width: 60%;
+    margin-top: 25px;
+    margin-left: 80px;
+}
+
+.section_2 ul li a:hover {
+    color: rgb(0, 174, 240);
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bolder;
+}
+
+ul li {
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    list-style-type: none;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+.home{
+  text-decoration: none;
+  color: black;
+}
+
+
+.section_3 {
+    width: 20%;
+    margin-left: 80px;
+
+}
+
+.section_3 input {
+    height: 45px;
+    width: 160px;
+    background-color: rgb(0, 174, 240);
+    color: white;
+    border: none;
+    margin-left: 25px;
+    margin-top: 23px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.section_3 input:hover {
+    transition: all 0.4s ease-in-out;
+    background-color: white;
+    color: rgb(0, 174, 240);
+    border: 3px solid rgb(0, 174, 240);
+}
+
+/* .topbar {
+    display: flex;
+    margin: 5px;
+    padding: 4px;
+    justify-content: space-evenly;
+
+    height: 35px;
+    width: 100%;
+    background-color: #d0d0d5;
+}
+
+.all_display-flex{
+    display: flex;
+}
+
+.header {
+    height: 750px;
+    width: 100%;
+    background: url('../Images/Dento_bg1.jpg')no-repeat center center/cover;
+    background-size: 100% 100%;
+    z-index: -1;
+    background-attachment: fixed;
+}
+
+.Navbar {
+    height: 90px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    position: fixed;
+    z-index: 100;
+    top: 0px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.section_1 {
+    height: 100%;
+    width: 20%;
+}
+
+.section_1 img {
+    margin-left: 40%;
+    margin-top: 25px;
+}
+
+.section_2 {
+    height: 100%;
+    width: 60%;
+    margin-top: 15px;
+    margin-left: 80px;
+}
+
+
+ul {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bolder;
+}
+
+ul li {
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    list-style-type: none;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+.home {
+    text-decoration: none;
+    color: black;
+}
+
+.section_2 ul li a:hover {
+    color: rgb(0, 174, 240);
+}
+
+.section_3 {
+    height: 100%;
+    width: 20%;
+    margin-left: 80px;
+
+}
+
+.section_3 input {
+    height: 45px;
+    width: 160px;
+    background-color: rgb(0, 174, 240);
+    color: white;
+    border: none;
+    margin-left: 25px;
+    margin-top: 23px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.section_3 input:hover {
+    transition: all 0.4s ease-in-out;
+    background-color: white;
+    color: rgb(0, 174, 240);
+    border: 3px solid rgb(0, 174, 240);
+} */
+
+.main {
+    height: 600px;
+    width: 100%;
+    background-color: hsla(240, 100%, 10%, 0.7);
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.main h1 {
+    font-size: 60px;
+    color: white;
+    padding-top: 160px;
+}
+
+.main b {
+    font-size: 20px;
+    color: white;
+}
+
+.main input {
+    height: 45px;
+    width: 160px;
+    font-weight: bold;
+    background-color: rgb(0, 174, 240);
+    color: white;
+    border-radius: 5px;
+    border: 3px solid rgb(0, 174, 240);
+    margin-left: 25px;
+    margin-top: 23px;
+}
+
+.main .btn_hover:hover {
+    color: rgb(0, 174, 240);
+    transition: all 0.4s ease-in-out;
+    background-color: transparent;
+    border: 3px solid rgb(0, 174, 240);
+    cursor: pointer;
+}
+
+.main .btn_plane {
+    height: 45px;
+    width: 160px;
+    font-weight: bold;
+    background: none;
+    color: white;
+    border-radius: 5px;
+    border: 3px solid rgb(0, 174, 240);
+    margin-left: 25px;
+    margin-top: 23px;
+    cursor: pointer;
+}
+
+.main-outer{
+    height: 600px;
+    width: 100%;
+    background-image: url('../Images/Dento_bg1.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.progressImg {
+    margin: 150px 10px 150px 150px;
+}
+
+.about_section {
+    display: flex;
+}
+
+.about-heading {
+    font-size: 30px;
+}
+
+.section_heading {
+    margin: 200px 0px 0px 30px;
+    font-size: 36px;
+    color: #333333;
+    line-height: 1.4;
+    font-weight: 600;
+}
+
+.line {
+    border: 4px solid #00aeef;
+    width: 90px;
+    margin-top: 20px
+}
+
+.para1 {
+    line-height: 1.9;
+    color: #707070;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+progress {
+    height: 15px;
+    width: 600px;
+    border-radius: 0;
+    margin-bottom: 20px;
+}
+
+progress::-webkit-progress-value {
+    background-color: #00aeef;
+}
+
+progress::-webkit-progress-bar {
+    background-color: #adb1b7;
+}
+
+.abt_list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.react1 {
+    height: 70px;
+    width: 70px;
+    margin-left: 260px;
+    color: #333333;
+}
+
+.react1h2 {
+    margin-left: 272px;
+    font-size: 38px;
+    color: #333333;
+}
+
+.react1h5 {
+    font-weight: 500;
+    font-size: 14px;
+    color: #333333;
+    margin-left: 230px;
+}
+
+.react2 {
+    height: 70px;
+    width: 70px;
+    margin-left: 245px;
+}
+
+.react2h2 {
+    margin-left: 245px;
+    font-size: 38px;
+    color: #333333;
+}
+
+.react2h5 {
+    font-weight: 500;
+    font-size: 14px;
+    color: #333333;
+    margin-left: 235px;
+}
+
+.react3 {
+    height: 70px;
+    width: 70px;
+    margin-left: 245px;
+}
+
+.react3h2 {
+    margin-left: 245px;
+    font-size: 38px;
+    color: #333333;
+}
+
+.react3h5 {
+    font-weight: 500;
+    font-size: 14px;
+    color: #333333;
+    margin-left: 245px;
+}
+
+.react4 {
+    height: 70px;
+    width: 70px;
+    margin-left: 245px;
+}
+
+.react4h2 {
+    margin-left: 245px;
+    font-size: 38px;
+    color: #333333;
+}
+
+.react4h5 {
+    font-weight: 500;
+    font-size: 14px;
+    color: #333333;
+    margin-left: 250px;
+}
+
+.services {
+    height: 550px;
+    width: 100%;
+    display: flex;
+    margin-top: 90px;
+    background: url('../Images/Dento_bg2.jpg')no-repeat center center/cover;
+    background-size: 100% 100%;
+    z-index: -1;
+    background-attachment: fixed;
+}
+
+.services1 {
+    background-color: hsla(240, 62%, 31%, 0.7);
+    height: 100%;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    line-height: 1.4;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.servicesName {
+    margin-left: 110px;
+    padding-top: 110px;
+}
+
+.mainDivServices1 {
+    display: flex;
+    margin-top: 50px;
+}
+
+.mainDivServices2 {
+    display: flex;
+    margin-top: 50px;
+}
+
+.serviceImg {
+    height: 40px;
+    width: 40px;
+    margin-left: 120px;
+}
+
+.serviceImg2 {
+    height: 40px;
+    width: 40px;
+    ;
+    margin-left: 105px;
+}
+
+.serviceImg3 {
+    height: 40px;
+    width: 40px;
+    margin-left: 140px;
+}
+
+.servicesHeading {
+    font-size: 1rem;
+    font-size: 400;
+    margin-left: 120px;
+}
+
+.servicesHeading2 {
+    font-size: 1rem;
+    font-size: 400;
+    margin-left: 100px;
+}
+
+.servicesHeading3 {
+    font-size: 1rem;
+    font-size: 400;
+    margin-left: 135px;
+}
+
+.ourServicesHover:hover {
+    color: #00aeef;
+}
+
+.line2 {
+    border: 4px solid #00aeef;
+    width: 80px;
+    margin-top: 20px;
+    margin-left: 110px;
+}
+
+.imgServiceParent {
+    max-width: 90%;
+    height: 400px;
+    margin-left: 160px;
+    margin-top: -290px;
+}
+
+.playbut {
+    position: relative;
+    z-index: 1;
+    bottom: 180px;
+    left: -320px;
+    height: 60px;
+    width: 60px;
+}
+
+.pricing {
+    color: #333333;
+    line-height: 1.4;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.line3 {
+    background-color: #00aeef;
+    height: 6px;
+    width: 90px;
+    margin-top: 30px;
+    margin-left: 715px;
+    margin-bottom: 30px;
+}
+
+.table1 {
+    color: #333333;
+    line-height: 1.4;
+    font-weight: 600;
+    padding: 90px;
+    border-collapse: collapse;
+    margin-top: 90px;
+    margin: auto;
+}
+
+.table1 tr th {
+    border: 4px solid white;
+    background-color: #00aeef;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.table1 tr td {
+    border: 3px solid white;
+}
+
+.stage1 {
+    height: 30px;
+    width: 120px;
+    padding: 15px 30px;
+    text-align: center;
+}
+
+.service1 {
+    width: 600px;
+    text-align: 25px;
+    padding: 15px 30px;
+}
+
+.price1 {
+    width: 190px;
+    text-align: center;
+}
+
+.readbtn {
+    position: relative;
+    z-index: 1;
+    min-width: 170px;
+    height: 46px;
+    line-height: 42px;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0 20px;
+    text-align: center;
+    margin-left: 45%;
+    margin-top: 50px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #00aeef;
+    border: none;
+    border-radius: 5px;
+}
+
+.readbtn:hover {
+    transition: all 0.4s ease-in-out;
+    background-color: white;
+    color: rgb(0, 174, 240);
+    border: 3px solid rgb(0, 174, 240);
+    border-radius: 5px;
+    background: none;
+    cursor: pointer;
+}
+
+
+
+.appointment {
+    height: 750px;
+    width: 100%;
+    margin-top: 90px;
+    background: url('../Images/Dento_bg3.jpg')no-repeat center center/cover;
+    background-size: 100% 100%;
+    z-index: -1;
+    background-attachment: fixed;
+}
+
+.appointment1 {
+    background-color: hsla(240, 62%, 31%, 0.7);
+    height: 100%;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    line-height: 1.4;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.appointmentName {
+    margin-left: 40px;
+    padding-top: 110px;
+    text-align: center;
+}
+
+.line4 {
+    background-color: #00aeef;
+    height: 4px;
+    width: 90px;
+    margin-top: 30px;
+    margin-left: 725px;
+    margin-bottom: 30px;
+}
+
+.form1 {
+    margin-left: 450px;
+}
+
+.namePhoneEmailAdd {
+    display: flex;
+}
+
+.yourName {
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
+    border: none;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 0px 30px;
+    margin-bottom: 20px;
+    font-style: italic;
+    margin-right: 30px;
+    width: 30%;
+}
+
+.yourTel {
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
+    border: none;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 0px 30px;
+    margin-bottom: 20px;
+    font-style: italic;
+    width: 30%;
+}
+
+.yourEmail {
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
+    border: none;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 0px 30px;
+    margin-bottom: 20px;
+    font-style: italic;
+    margin-right: 30px;
+    width: 30%;
+}
+
+.yourAddress {
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
+    border: none;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 0px 30px;
+    margin-bottom: 20px;
+    font-style: italic;
+    margin-top: 0px;
+    width: 30%;
+}
+
+.yourSchedule {
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
+    border: none;
+    color: solid white;
+    font-size: 12px;
+    padding: 0px 30px;
+    margin-bottom: 20px;
+    font-style: italic;
+    margin-right: 30px;
+    width: 30%;
+}
+
+.yourMessage {
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
+    border: none;
+    color: solid white;
+    font-size: 12px;
+    padding: 0px 30px;
+    margin-bottom: 20px;
+    font-style: italic;
+    margin-right: 30px;
+    width: 63%;
+}
+
+.bookbtn {
+    height: 45px;
+    width: 160px;
+    font-weight: bold;
+    background-color: rgb(0, 174, 240);
+    color: white;
+    border-radius: 5px;
+    border: 3px solid rgb(0, 174, 240);
+    margin-left: 250px;
+    margin-top: 30px;
+}
+
+.bookbtn:hover {
+    color: rgb(0, 174, 240);
+    transition: all 0.4s ease-in-out;
+    background-color: transparent;
+    border: 3px solid rgb(0, 174, 240);
+    cursor: pointer;
+}
+
+.line5 {
+    background-color: #00aeef;
+    height: 4px;
+    width: 90px;
+    margin-top: 20px;
+    margin-left: 730px;
+    margin-bottom: 20px;
+}
+
+.ourDentist {
+    color: #333333;
+    line-height: 1.4;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+}
+
+.ourDentistHeading {
+    margin-left: 40px;
+    padding-top: 110px;
+    text-align: center;
+}
+
+.imgDentist {
+    margin-left: 115px;
+    display: flex;
+}
+
+.imgDentist3 {
+    content: "";
+    height: 95px;
+    width: 430px;
+    margin-left: 20px;
+    background: linear-gradient(to right, #2c455d, #00012c);
+    opacity: 0.7;
+    position: relative;
+    top: 10;
+    z-index: 1;
+    top: -95px;
+}
+
+.imgDentist3,
+h3 {
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.para2 {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.feedback1 {
+    height: 350px;
+    width: 100%;
+    margin-top: 90px;
+    background: url('../Images/Dento_bg4.jpg')no-repeat center center/cover;
+    background-size: 100% 100%;
+    z-index: -1;
+    background-attachment: fixed;
+}
+
+.feedback2 {
+    background-color: hsla(240, 62%, 31%, 0.7);
+    height: 100%;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    line-height: 1.4;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: left;
+    font-style: italic;
+}
+
+.feedback3 {
+    padding-top: 120px;
+    padding-left: 400px;
+}
+
+.feedbackName {
+    margin-left: 400px;
+    padding-top: 10px;
+}
+
+.feedbackPatientType {
+    margin-left: 415px;
+    padding-top: 10px;
+    font-size: small;
+}
+
+.feedbackImg {
+    border-radius: 50%;
+    margin-top: -200px;
+    margin-left: 180px;
+}
+
+.latestNews {
+    color: #333333;
+    line-height: 1.4;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+}
+
+.latestNewsName {
+    margin-left: 40px;
+    padding-top: 110px;
+    text-align: center;
+}
+
+.line6 {
+    background-color: #00aeef;
+    height: 4px;
+    width: 90px;
+    margin-top: 20px;
+    margin-left: 730px;
+    margin-bottom: 20px;
+}
+
+/* .latestNewsMain {
+    display: flex;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.latestNewsMouth {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.latestNewsMouth1 {
+    margin-left: 100px;
+}
+
+.latestNewsMouthHeading {
+    font-size: 16px;
+    font-weight: 700;
+    color: #333333;
+    text-decoration: none;
+}
+
+.latestDateComments {
+    display: flex;
+}
+
+.latestDateComments1 {
+    display: flex;
+}
+
+.latestDateComments2 {
+    height: 20px;
+    width: 20px;
+}
+
+.latestDateComments3 {
+    text-decoration: none;
+    margin-bottom: 15px;
+    margin-left: 3px;
+    color: #3b3a3a;
+    font-size: small;
+}
+
+.latestDateComments4 {
+    display: flex;
+}
+
+.latestDateComments5 {
+    height: 20px;
+    width: 20px;
+}
+
+.latestDateComments6 {
+    text-decoration: none;
+    margin-left: 3px;
+    color: #3b3a3a;
+    font-size: small;
+}
+
+.mouthBacteria {
+    height: 195.75px;
+    width: 290px;
+    padding: 80px 80px 30px 100px;
+}
+
+.latestNewsToothpaste {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.latestNewsToothpaste1 {
+    margin-left: 130px;
+}
+
+.LatestNewsToothpasteHeading {
+    font-size: 16px;
+    font-weight: 700;
+    color: #333333;
+    text-decoration: none;
+}
+
+.latestNewsDrinks {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.latestNewsDrinks1 {
+    margin-left: 130px;
+}
+
+.LatestNewsDrinksHeading {
+    font-size: 16px;
+    font-weight: 700;
+    color: #333333;
+    text-decoration: none;
+}
+
+.latestPara {
+    font-weight: 500;
+    line-height: 1.9;
+    color: #707070;
+    font-size: 14px;
+} */
+
+.latestNews {
+    color: #333333;
+    line-height: 1.4;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+}
+
+.latestNewsName {
+    margin-left: 40px;
+    padding-top: 110px;
+    text-align: center;
+}
+
+.line6 {
+    background-color: #00aeef;
+    height: 4px;
+    width: 90px;
+    margin-top: 20px;
+    margin-left: 730px;
+    margin-bottom: 20px;
+}
+
+.latestNewsMain {
+    display: flex;
+    margin-left: 90px;
+    margin-right: 60px;
+}
+
+.latestNewsMouth {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.latestNewsMouth1 {
+    margin-left: 130px;
+}
+
+.latestNewsMouthHeading {
+    font-size: 16px;
+    font-weight: 700;
+    color: #333333;
+    text-decoration: none;
+}
+
+.latestDateComments {
+    display: flex;
+}
+
+.latestDateComments1 {
+    display: flex;
+}
+
+.latestDateComments2 {
+    height: 20px;
+    width: 20px;
+    padding-bottom: 80px;
+}
+
+.latestDateComments3 {
+    text-decoration: none;
+    margin-bottom: 15px;
+    margin-left: 3px;
+    color: #3b3a3a;
+    font-size: small;
+}
+
+.latestDateComments4 {
+    display: flex;
+}
+
+.latestDateComments5 {
+    height: 20px;
+    width: 20px;
+}
+
+.latestDateComments6 {
+    text-decoration: none;
+    margin-left: 3px;
+    color: #3b3a3a;
+    font-size: small;
+}
+
+.mouthBacteria {
+    height: 350px;
+    width: 450px;
+    padding: 80px 80px 30px 100px;
+}
+
+.latestNewsToothpaste {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.latestNewsToothpaste1 {
+    margin-left: 130px;
+}
+
+.LatestNewsToothpasteHeading {
+    font-size: 16px;
+    font-weight: 700;
+    color: #333333;
+    text-decoration: none;
+}
+
+.latestNewsDrinks {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.latestNewsDrinks1 {
+    margin-left: 130px;
+}
+
+.LatestNewsDrinksHeading {
+    font-size: 16px;
+    font-weight: 700;
+    color: #333333;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+.footer1 {
+    height: 550px;
+    width: 100%;
+    margin-top: 90px;
+    background: url('../Images/Dento_bg5.jpg')no-repeat center center/cover;
+    background-size: 100% 100%;
+    z-index: -1;
+    background-attachment: fixed;
+}
+
+.footer2 {
+    background-color: hsla(240, 62%, 31%, 0.7);
+    height: 100%;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    line-height: 1.4;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.footer3 {
+    margin: 10px 60px 200px 80px;
+    margin-top: 200px;
+}
+
+.footer-1-section {
+    margin-top: 130px;
+    margin-left: -5px;
+    padding: 50px;
+    padding-top: 30px;
+}
+
+.footer-2-section {
+    margin-top: 130px;
+    padding: 50px;
+    padding-top: 30px;
+
+}
+
+.footer-3-section {
+    margin-top: 150px;
+    padding: 50px;
+    padding-top: 10px;
+}
+
+.footer-1-section-para {
+    color: #ffffff;
+    line-height: 1.9;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 20px 0px;
+}
+
+.footer-1-section-location {
+    padding-top: 5px;
+    height: 20px;
+    width: 20px;
+}
+
+.footer-1-section-location-text {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 5px;
+}
+
+.footer-2-section-heading {
+    font-size: 1.25rem;
+}
+
+.opening-hours-main {
+    display: flex;
+    padding: 40px 0px;
+    color: #ffffff;
+    line-height: 1.4;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.opening-hours1 {
+    padding-bottom: 15px;
+    padding-right: 95px;
+}
+
+.opening-hours2 {
+    padding-bottom: 15px;
+}
+
+.quick-links-main {
+    display: flex;
+    margin-left: -35px;
+    padding: 40px;
+    color: #ffffff;
+    line-height: 1.4;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.quick-links1 {
+    padding-right: 75px;
+}
+
+.quickLinks {
+    padding-bottom: 15px;
+}
+
+.newsletter-main {
+    display: flex;
+    padding-top: 40px;
+    color: #ffffff;
+    line-height: 1.4;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.newsletter-para {
+    padding-bottom: 40px;
+}
+
+.Textbox-footer {
+    height: 35px;
+}
+
+.Textbox-footer-img {
+    margin-left: -10px;
+    margin-bottom: 30px;
+    height: 33px;
+    width: 33px;
+}
+
+.social-main {
+    display: flex;
+    margin-left: 35px;
+}
+
+.socialHover {
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+}
+
+.socialHover:hover {
+    border: 3px solid blue;
+}
+
+.quickLinks:hover {
+    color: #00aeef;
+}
+
+/* Dropdown */
+
+li a,
+.dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
+    color: #00aeef;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+li a,
+.dropbtn1 {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover,
+.dropdown1:hover .dropbtn1 {
+    color: #00aeef;
+}
+
+li.dropdown1 {
+    display: inline-block;
+}
+
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content1 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content1 a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown1:hover .dropdown-content1 {
+    display: block;
+}
+
+.fas {
+    float: right;
+    margin-left: 10px;
+}
+
+.copyright {
+    text-align: center;
+    padding-bottom: 20px;
+}

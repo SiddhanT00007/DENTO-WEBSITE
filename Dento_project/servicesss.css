@@ -1,0 +1,674 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+}
+
+.topbar {
+    display: flex;
+    padding: 4px;
+    justify-content: space-evenly;
+    height: 35px;
+    width: 100%;
+    background-color: #e1e1e4;
+}
+
+.header {
+    height: 90px;
+    width: 100%;
+    position: sticky;
+    z-index: 100;
+    top: 0px;
+    box-shadow: 0px 0px 10px 1px rgb(220, 219, 219);
+}
+
+
+.Navbar {
+    height: 90px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+   
+}
+
+.all_display-flex{
+    display: flex;
+}
+
+.section_1 {
+    width: 20%;
+}
+
+.section_1 img {
+    margin-left: 40px;
+    margin-top: 25px;
+}
+
+.section_2 {
+    width: 60%;
+    margin-top: 25px;
+    margin-left: 80px;
+}
+
+.section_2 ul li a:hover {
+    color: rgb(0, 174, 240);
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bolder;
+}
+
+ul li {
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    list-style-type: none;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+.home{
+  text-decoration: none;
+  color: black;
+}
+
+
+.section_3 {
+    width: 20%;
+    margin-left: 80px;
+
+}
+
+.section_3 input {
+    height: 45px;
+    width: 160px;
+    background-color: rgb(0, 174, 240);
+    color: white;
+    border: none;
+    margin-left: 25px;
+    margin-top: 23px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.section_3 input:hover {
+    transition: all 0.4s ease-in-out;
+    background-color: white;
+    color: rgb(0, 174, 240);
+    border: 3px solid rgb(0, 174, 240);
+}
+
+.main-outer{
+    height: 300px;
+    width: 100%;
+    background-image: url('../Images/About_bg1.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.main {
+    height: 300px;
+    width: 100%;
+    color: white;
+    background-color: hsla(240, 100%, 10%, 0.7);
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.main h3 {
+    font-size: 40px;
+    line-height: 1.4;
+    font-weight: 600;
+    color: white;
+    padding-top: 120px;
+}
+
+.navigation {
+    display: flex;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+
+.navigation-img{
+    padding-right: 10px;
+    height: 20px;
+    width: 20px;
+
+}
+
+.navigation-name1{
+    margin-top: 3px;padding-right: 10px;
+}
+
+.navigation-img2{
+    cursor: pointer;text-decoration: none;color: black;
+}
+
+
+
+
+.feedback1 {
+    height: 350px;
+    width: 100%;
+    margin-top: 90px;
+    background: url('../Images/Dento_bg4.jpg')no-repeat center center/cover;
+    background-size: 100% 100%;
+    z-index: -1;
+    background-attachment: fixed;
+}
+
+.feedback2 {
+    background-color: hsla(240, 62%, 31%, 0.7);
+    height: 100%;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    line-height: 1.4;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: left;
+    font-style: italic;
+}
+
+.feedback3 {
+    padding-top: 120px;
+    padding-left: 400px;
+}
+
+.feedbackName {
+    margin-left: 400px;
+    padding-top: 10px;
+}
+
+.feedbackPatientType {
+    margin-left: 415px;
+    padding-top: 10px;
+    font-size: small;
+}
+
+.feedbackImg {
+    border-radius: 50%;
+    margin-top: -200px;
+    margin-left: 180px;
+}
+
+.latestNews {
+    color: #333333;
+    line-height: 1.4;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+}
+
+.latestNewsName {
+    margin-left: 40px;
+    padding-top: 110px;
+    text-align: center;
+}
+
+.line6 {
+    background-color: #00aeef;
+    height: 4px;
+    width: 90px;
+    margin-top: 20px;
+    margin-left: 730px;
+    margin-bottom: 20px;
+}
+
+.latestNewsMain {
+    display: flex;
+    margin-left: 90px;
+    margin-right: 60px;
+}
+
+.latestNewsMouth {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.latestNewsMouth1 {
+    margin-left: 130px;
+}
+
+.latestNewsMouthHeading {
+    font-size: 16px;
+    font-weight: 700;
+    color: #333333;
+    text-decoration: none;
+}
+
+.latestDateComments {
+    display: flex;
+}
+
+.latestDateComments1 {
+    display: flex;
+}
+
+.latestDateComments2 {
+    height: 20px;
+    width: 20px;
+    padding-bottom: 80px;
+}
+
+.latestDateComments3 {
+    text-decoration: none;
+    margin-bottom: 15px;
+    margin-left: 3px;
+    color: #3b3a3a;
+    font-size: small;
+}
+
+.latestDateComments4 {
+    display: flex;
+}
+
+.latestDateComments5 {
+    height: 20px;
+    width: 20px;
+}
+
+.latestDateComments6 {
+    text-decoration: none;
+    margin-left: 3px;
+    color: #3b3a3a;
+    font-size: small;
+}
+
+.mouthBacteria {
+    height: 350px;
+    width: 450px;
+    padding: 80px 80px 30px 100px;
+}
+
+.latestNewsToothpaste {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.latestNewsToothpaste1 {
+    margin-left: 130px;
+}
+
+.LatestNewsToothpasteHeading {
+    font-size: 16px;
+    font-weight: 700;
+    color: #333333;
+    text-decoration: none;
+}
+
+.latestNewsDrinks {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.latestNewsDrinks1 {
+    margin-left: 130px;
+}
+
+.LatestNewsDrinksHeading {
+    font-size: 16px;
+    font-weight: 700;
+    color: #333333;
+    text-decoration: none;
+}
+
+.services {
+    height: 350px;
+    width: 100%;
+    margin-top: 90px;
+    background-size: 100% 100%;
+    z-index: -1;
+    background-attachment: fixed;
+  }
+  
+  .services1 {
+    height: 100%;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    color: black;
+    line-height: 1.4;
+    font-weight: 600;
+    font-size: 30px;
+  }
+  
+  .ourServicesHover:hover {
+    color: #00aeef;
+  }
+  
+  .services2 {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 350px;
+  }
+  
+  .services3 {
+    height: 40px;
+    width: 40px;
+    margin-left: 170px;
+    color: #00aeef;
+  }
+  
+  .services4 {
+    height: 40px;
+    width: 40px;
+    ;
+    margin-left: 180px;
+  }
+  
+  .services5 {
+    font-size: 1rem;
+    font-size: 400;
+    margin-left: 160px;
+  }
+  
+  .services6 {
+    height: 40px;
+    width: 40px;
+    ;
+    margin-left: 165px;
+  }
+  
+  .services7 {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 350px;
+    padding-top: 50px;
+  }
+  
+  .services8 {
+    height: 40px;
+    width: 40px;
+    margin-left: 170px;
+  }
+  
+  .services9 {
+    height: 40px;
+    width: 40px;
+    ;
+    margin-left: 165px;
+  }
+  
+  .services10 {
+    font-size: 1rem;
+    font-size: 400;
+    margin-left: 140px;
+  }
+  
+  .services11 {
+    height: 40px;
+    width: 40px;
+    ;
+    margin-left: 180px;
+  }
+  
+  
+  .ourServicesHover {
+    font-size: 1rem;
+    font-size: 400;
+    margin-left: 120px;
+  }
+  
+  .services12{
+    font-size: 1rem;
+    font-size: 400;
+    margin-left: 160px;
+  }
+
+
+
+
+
+
+.footer1 {
+    height: 550px;
+    width: 100%;
+    margin-top: 90px;
+    background: url('../Images/Dento_bg5.jpg')no-repeat center center/cover;
+    background-size: 100% 100%;
+    z-index: -1;
+    background-attachment: fixed;
+}
+
+.footer2 {
+    background-color: hsla(240, 62%, 31%, 0.7);
+    height: 100%;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    line-height: 1.4;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.footer3 {
+    margin: 10px 60px 200px 80px;
+    margin-top: 200px;
+}
+
+.footer-1-section {
+    margin-top: 130px;
+    margin-left: -5px;
+    padding: 50px;
+    padding-top: 30px;
+}
+
+.footer-2-section {
+    margin-top: 130px;
+    padding: 50px;
+    padding-top: 30px;
+
+}
+
+.footer-3-section {
+    margin-top: 150px;
+    padding: 50px;
+    padding-top: 10px;
+}
+
+.footer-1-section-para {
+    color: #ffffff;
+    line-height: 1.9;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 20px 0px;
+}
+
+.footer-1-section-location {
+    padding-top: 5px;
+    height: 20px;
+    width: 20px;
+}
+
+.footer-1-section-location-text {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 5px;
+}
+
+.footer-2-section-heading {
+    font-size: 1.25rem;
+}
+
+.opening-hours-main {
+    display: flex;
+    padding: 40px 0px;
+    color: #ffffff;
+    line-height: 1.4;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.opening-hours1 {
+    padding-bottom: 15px;
+    padding-right: 95px;
+}
+
+.opening-hours2 {
+    padding-bottom: 15px;
+}
+
+.quick-links-main {
+    display: flex;
+    margin-left: -35px;
+    padding: 40px;
+    color: #ffffff;
+    line-height: 1.4;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.quick-links1 {
+    padding-right: 75px;
+}
+
+.quickLinks {
+    padding-bottom: 15px;
+}
+
+.newsletter-main {
+    display: flex;
+    padding-top: 40px;
+    color: #ffffff;
+    line-height: 1.4;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.newsletter-para {
+    padding-bottom: 40px;
+}
+
+.Textbox-footer {
+    height: 35px;
+}
+
+.Textbox-footer-img {
+    margin-left: -10px;
+    margin-bottom: 30px;
+    height: 33px;
+    width: 33px;
+}
+
+.social-main {
+    display: flex;
+    margin-left: 35px;
+}
+
+.socialHover {
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+}
+
+.socialHover:hover {
+    border: 3px solid blue;
+}
+
+.quickLinks:hover {
+    color: #00aeef;
+}
+
+/* Dropdown */
+
+li a,
+.dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
+    color: #00aeef;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+li a,
+.dropbtn1 {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover,
+.dropdown1:hover .dropbtn1 {
+    color: #00aeef;
+}
+
+li.dropdown1 {
+    display: inline-block;
+}
+
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content1 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content1 a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown1:hover .dropdown-content1 {
+    display: block;
+}
+
+.fas {
+    float: right;
+    margin-left: 10px;
+}
+
+.copyright {
+    text-align: center;
+    padding-bottom: 20px;
+}
